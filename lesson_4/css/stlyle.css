@@ -1,0 +1,53 @@
+@import url(reset.css);
+*{
+    /* color: grey; */
+}
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+}
+h1.tatle{
+   margin-top: 20px;
+   margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+nav li{
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+   color: blue;
+}
+[class*="introductio"]{
+    margin: 20px;
+    font-size: 20px;
+    color: black;
+}
+.content>h3{
+    text-align: left;
+    margin: 0px 0px 10px 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: blue;
+}
+.content .text{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+.sub-tytle~h6{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+.content img{
+    width: 1120px;
+}
