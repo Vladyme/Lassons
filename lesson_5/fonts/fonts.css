@@ -1,0 +1,46 @@
+/* ПІКЛЮСЧЕННЯ ШРИФТУ ЗА ДОПОМОГОЮ GOOGLE FONS */
+
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700diplay=wrap);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,diplay=wrap);
+
+/* ПІКЛЮСЧЕННЯ ШРИФТУ Самостійно */
+@font-face {
+    font-family:'causten';
+    src: url(../fonts/Causten-Regular.woff2), format(woff2)
+        url(../fonts/Causten-Regular.woff) format(woff);
+        font-weight: normal; 
+        font-display: swap;
+        font-style: normal;
+}
+@font-face {
+    font-family:'causten';
+    src: url(../fonts/Causten-Bold.woff2), format(woff2)
+        url(../fonts/Causten-Bold.woff) format(woff);
+        font-weight: normal; 
+        font-display: swap;
+        font-style: normal;
+}
+@font-face {
+    font-family:'causten';
+    src: url(../fonts/Causten-Light.woff2), format(woff2)
+        url(../fonts/Causten-Light.woff) format(woff);
+        font-weight: normal; 
+        font-display: swap;
+        font-style: normal;
+}
+@font-face {
+    font-family:'causten';
+    src: url(../fonts/Causten-Medium.woff2), format(woff2)
+        url(../fonts/Causten-Medium.woff) format(woff);
+        font-weight: normal; 
+        font-display: swap;
+        font-style: normal;
+}
+@font-face {
+    font-family:'causten';
+    src: url(../fonts/Causten-SemiBold.woff2), format(woff2)
+        url(../fonts/Causten-SemiBold.woff) format(woff);
+        font-weight: normal; 
+        font-display: swap;
+        font-style: normal;
+}

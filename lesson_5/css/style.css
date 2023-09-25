@@ -1,0 +1,143 @@
+@import url(../fonts/fonts.css);
+@import url(reset.css);
+body{
+    font-family: "inter",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.47;
+    color: #7D7D7D;
+    width: 800px;
+}
+h1{
+     background-color: rgb(255, 225, 0); 
+    border-radius: 17px 17px 17px 17px;
+    padding: 10px;
+    margin: 15px;
+    text-shadow: 10px -10px 7px rgb(0, 183, 255);
+    }
+    div.tuning{
+        display: inline-block;
+        max-width: 300px;
+       margin: 0px 0px 20px 15px; 
+       letter-spacing: 2px;
+    }
+
+    .foto{
+        max-width: 500px; 
+        margin: 0px 0px 20px 15px;
+    }
+    .title,
+    .sub-title{
+        font-family: "Poppins",sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        color: #37393F;
+        line-height: 1.27;
+        text-decoration: underline;
+    }
+    #avto-of-the-future{
+        font-family: "causten",serif;
+        font-size: 35px;
+        font-style: italic;
+        color: red;
+
+    }
+    .some-div li{
+         background-color: blue; 
+        border-radius: 18px 18px 18px 18px;
+        margin: 0px 0px 15px 15px;
+        padding: 5px;
+        max-width: 600px;
+        color: black;  
+     }
+    [class*=list]{
+       
+        padding: 10px 10px;
+        display: inline-block;
+     }
+     .content>h2{
+        margin-bottom: 15px;
+        padding-left: 15px;
+     }
+     .sub-title~p{
+        padding-left: 15px;
+        text-indent: 14px;
+       
+     }
+     .content{
+      margin-bottom: 100px;
+     }
+
+     /* фрагмент з макету */
+     
+     h3{
+        font-family: "poppins",sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.28;
+        text-transform: capitalize;
+        color:#37393F;;
+     }
+     .text p{
+        font-family: "inter",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.47;
+        color: #7D7D7D;
+     }
+     h5{
+        font-family: "poppins",sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.28;
+        color: #6B77E5;
+     }
+     .sub-title-two p{
+        font-family: "inter",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.47;
+        color: #7D7D7D; 
+     }
+     /*ФРАГМЕНТ ДВА */
+     h4{
+      font-family: "poppins",sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.28;
+        text-transform: capitalize;
+        color:#37393F;;
+      margin-bottom: 13px;
+     }
+     [class*=block-two]{
+      font-family: "inter",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.47;
+        color: #7D7D7D;
+        margin-bottom: 35px;
+     }
+     .subject p{
+      font-family: "inter",sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.47;
+      color: #7D7D7D;
+      margin-bottom: 35px;}
+   .list-two{
+      font-family: "inter",sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.47;
+      color: #7D7D7D;
+      margin-bottom: 35px;}
+     
