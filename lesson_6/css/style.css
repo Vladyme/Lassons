@@ -1,38 +1,188 @@
-@import url(tonts.css);
 @import url(reset.css);
-body{
+ body{
     font-family: inter,sans-serif;
     font-size: 18px;
-    line-height: 1,47;
-    width: 100%;
-    background-color: aqua;
+    max-width: 1300px;
+    margin:0 auto;
    }
 .foto{
-  width: 500px;
+  max-width: 500px;
+  min-height: 330px;
+  margin: 0px 0px 15px 15px;
 }
 .title{
-  font-family: popens, sans-serif;
+  font-family: poppins, sans-serif;
   font-size: 40px;
-  font-style: oblique;
   font-weight: 700;
-  text-shadow: 1px 6px 1px gray;
-  margin: 30px 0px 30px 15px;
-  padding: 5px;
-  border: 5px solid black;
+  margin: 30px 0px 30px 45px;
+  padding: 15px;
+  border: 2px solid black;
   border-radius: 20px;
   text-align: center;
+  background-color: gray;
+}
+
+.list-menu 
+.movie-title{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 25px;
+  width: 500px;
+  text-align: center;
+  margin: 0px 0px 20px 100px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 25px;
+  height:70px ;
+  background-color: gray;
+}
+
+.centr{
+  margin-left: 400px;
+}
+.sub-title-ono,
+.sub-title{
+  font-family: poppins, sans-serif;
+  font-size: 30px;
+  margin: 0px 0px 20px 20px;
+  height: 60px;
+  text-decoration: underline;
+}
+.container p{
+  line-height: 25px;
 }
 .container-two .block{
+    vertical-align: top;
     display: inline-block;
     max-width: 620px; 
     height: 700px;
-    margin: 30px 0px 30px 5px;
+    margin: 25px 0px 10px 17px;
     padding: 20px;
-    background-color: brown;
+    border:5px solid black ;
+    border-radius: 30px;
+    background-color: gray;
 }
 .container-two{
   font-size: 0;
 }
 .container-two{
   font-size: 18px;
+  background-color:rebeccapurple;
+  margin-bottom: 50px;
+} 
+
+ /* ПЕРШИЙ ФРАГМЕНТ З МАКЕТУ  */
+ .container-ono {
+  max-width: 702px;
+  margin: auto;
+  color: #7D7D7D;
+  font-size: 18px;
 }
+.block-layout  p{
+  margin-bottom: 42px;
+  line-height: 1.27;
+}
+.foto-dz {
+  margin-bottom: 37px;
+}
+.title-layout,
+.sub-title-layout-twoo,
+.sub-title-twoo {
+  font-family: poppins, sans-serif;
+  color:#37393F;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.47;
+  margin-bottom: 12px;
+}
+.sub-title-layout {
+  font-family: poppins, sans-serif;
+  color: #6B77E5;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.47;
+  margin-bottom: 12px;
+
+}
+.sub-title-layout+p{
+margin-bottom: 80px;
+}
+.foto-twoo{
+  margin-right: 28px;
+  margin-bottom: 50px;
+  height: 262px;
+}
+.block-twoo {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 332px;
+  font-size: 0px;
+}
+.block-twoo{
+  font-size: 18px;
+}
+.sub-title-twoo {
+  font-size: 25px;
+  line-height: 1.27;
+  margin-bottom: 15px;
+}
+.sub-title-turquoise {
+  color:#40DDB6 ;
+  font-family: poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27;
+  margin-bottom: 21px;
+}
+.list-layout li {
+  margin-bottom: 35px;
+}
+.block-layout-ono p {
+  margin-bottom: 45px;
+}
+.sub-title-layout-twoo {
+  margin-bottom: 4px;
+}
+
+ /* ПЕРШИЙ ФРАГМЕНТ З МАКЕТУ  */
+
+ .container-custom {
+  max-width: 1229px;
+  height: 518px;
+  margin: 0 auto;
+}
+.block-custom {
+  margin-top: 21px;
+  margin-right: 38px;
+  display: inline-block;
+  max-width: 566px;
+}
+.orang {
+ color:#D06B00 ;
+ font-size: 28px; 
+ font-weight: 400;
+ text-transform: uppercase;
+ margin-bottom: 13px;
+}
+.title-custom {
+  color: #0E333D;
+  font-family: DM, Serif Text;
+  font-size: 59px;
+  margin-bottom: 25px;
+  line-height: 1.47;
+}
+.block-custom p {
+  color:#474747;
+  font-size: 20px;
+  line-height: 1.80;
+}
+.image {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+}
+.foto-custom{
+  margin-right: 22px;
+}
+
+
