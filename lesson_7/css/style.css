@@ -1,0 +1,295 @@
+@import url(reset.css);
+
+.container-licencing {
+    max-width:1218px;
+    margin:0 auto;
+     font-family:inter, sans-serif; 
+    font-size: 18px;
+    color: #7D7D7D;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.block {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.color {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color:#40DDB6;
+}
+.block p{
+    color:#37393F ;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.title,
+.sub-title,
+.sub-title-twoo,
+.sub-title-three {
+    color: #37393F;
+     font-family: Poppins, sans-serif; 
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.21;
+}
+
+.sub-title,
+.sub-title-twoo,
+ .sub-title-three {
+    font-size: 40px;
+    margin-bottom: 11px;
+ }
+
+.block-twoo p {
+    line-height: 1.47;
+    margin-bottom: 32px;
+}
+
+.sub-title-license,
+.sub-title-pexels,
+.sub-title-unspians {
+    color: #37393F;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 700; 
+    margin-bottom: 8px;
+}
+
+.block-twoo{
+    margin-bottom: 100px;
+}
+
+.turquoise {
+    color: #40DDB6;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+}
+
+.block-three p{
+    line-height: 1.47;
+    margin-bottom: 24px;
+}
+
+.sub-title-pexels+p,
+.sub-title-unspians+p{
+    color: #40DDB6;
+    line-height: 1.47;
+}
+
+.sub-title-pexels+p{
+    margin-bottom: 24px;
+}
+
+.block-three{
+    margin-bottom: 100px;
+}
+
+.fonts {
+    color: #40DDB6;
+    font-weight: 500;
+    line-height: 1.47;
+}
+
+/* ФРАГМЕНТ З МАКЕТУ 2-Й */
+
+.container-projekt {
+    max-width: 830px;
+    margin:0 auto;
+    color: #7D7D7D;
+    font-family:inter, sans-serif ;
+    font-size: 18px;
+    line-height: 1.46;
+}
+.block-information {
+}
+.title-project {
+   color: #37393F; 
+   font-family:Poppins, sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.27;
+   margin-bottom: 13px;
+}
+.cpace{
+    margin-bottom: 23px;
+}
+.block-text,
+.block-list {
+    margin-bottom: 35px;
+}
+.block-list {
+    margin-left: 16px;
+}
+li {
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+
+/* ФРАГМЕНТ З МАКЕТУ 3-Й */
+
+.container-custom-jewels {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.content-custom-jewels {
+    max-width: 1110px;
+    margin: auto;
+}
+.block-custom-jewels {
+    display: inline-block;
+    max-width: 503px;
+    padding-top: 70px;
+    margin-right: 75px;
+    font-family: Cormorant Infant ;
+    font-size:30px;
+    color: #606060;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.sub-titlt-custom-jewels {
+    color: #D58417;
+   font-size: 20px;
+   line-height: 1;
+   margin-bottom: 27px;
+}
+.title-custom-jewels {
+   color: black; 
+   font-size: 64px;
+   line-height: 1;
+   margin-bottom: 31px;
+}
+
+.image-custom-jewels{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0px;
+}
+.image-ono,
+.image-twoo {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0px;
+}
+ .image-ono{
+    border-radius: 235px;
+    border: 1px solid #502203;
+    margin-top: 99px;
+    margin-right: 20px;
+    padding-top: 14px;
+    padding-right: 10px;
+}
+.image-twoo {
+    border-radius: 235px;
+    border: 1px solid #502203;
+    padding-top: 13px;
+    padding-right: 10px;
+}
+.foto {
+    width:177px;
+    height:336px;
+}
+.foto-twoo{
+    width:307px;
+    height:500px; 
+}
+.image-twoo {
+    padding-top: 19px;
+}
+/* ФРАГМЕНТ З МАКЕТУ 4-Й */
+
+.container-clothing-for-women {
+    max-width: 1240px;
+    margin: 0 auto;
+    font-family: "Causten",sans-serif;
+    font-size: 20px;
+    line-height: 1.65;
+    color:#807D7E;
+}
+.content-women-online {
+    padding-left: 21px;
+}
+.violet {
+    width: 6px;
+    height: 28px;
+    background-color:  #8A33FD;
+    border-radius: 10px;
+    display: inline-block;
+}
+.sub-title-women-online,
+.sub-title-collection-online {
+    font-family: Core Sans C, sans-serif; 
+    font-size: 28px;
+    color:#3C4242 ;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    display: inline-block;
+}
+.sub-title-collection-online {
+    color:#807D7E ;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    padding-left: 0px;
+}
+.sub-title-collection-online+p{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.retreat-ono{
+margin-bottom: 25px;
+}
+.retreati-twoo{
+    margin-bottom: 20px;
+}
+
+/* ПРАКТИКА */
+
+.container-practice {
+    max-width: 1200px;
+    margin:0 auto;
+    color: #502203;
+    font-size: 23px;
+}
+.block-practice-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.block-solid,
+.block-dotted,
+.block-dashed,
+.block-double {
+    display: inline-block;
+    max-width: 200px;
+    vertical-align: top;
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 25px;
+    outline: 5px solid black;
+}
+.block-solid{
+    border: 5px solid red;
+    opacity: 0.7;
+
+}
+.block-dotted {
+    border: 5px dotted red;
+    opacity: 0.3;
+
+}
+.block-dashed {
+    border: 5px dashed red;
+    opacity: 0.1;
+
+}
+.block-double {
+    border: 5px double red;
+    opacity: 0.9;
+    visibility: hidden;
+}
