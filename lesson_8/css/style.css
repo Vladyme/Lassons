@@ -1,0 +1,307 @@
+@import url(reset.css);
+
+
+.container-practice{
+ max-width: 1000px;
+ margin:0 auto;
+ font-size: 20px;
+ line-height: 1.6;
+}
+.practice-backgraund-color,
+.practice-backgraund {
+    margin-top: 50px;
+    padding: 30px;
+    border: 5px solid black;
+    background-color: brown;
+
+
+     /* background-image: linear-gradient(90deg, rgba(0,36,21,1) 8%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 92%);
+    background-repeat: repeat-x; */
+    /* background-position: 0 1000px; */
+
+    background-image: url(../img/background_image_twoo.png);
+
+
+    /* background-position: 0 0px;
+    background-size: 300px;
+    background-repeat: no-repeat; */
+    /* background-position: 50%; */
+
+
+    /* background-repeat: repeat-y; 
+    background-size:  500px;
+    background-position: 100% 0; */
+
+    /* background-attachment: scroll; */
+
+    /* background-attachment: fixed; */
+
+}
+
+.practice-backgraund {
+    /* background: blue url(../img/background-image_ono.jpg) 50% / cover no-repeat;  */
+
+     /* background: blue url(../img/background-image_ono.jpg) 50% 20% / 500px no-repeat fixed ;   */
+
+background:  url(../img/background-image_ono.jpg) no-repeat fixed 0 90% /500px, url(../img/background_image_twoo.png) no-repeat 100% 0/ 350px, url(../img/bagrround_image.webp) no-repeat 100% 100%/ 500px, linear-gradient(90deg, rgba(0,36,21,1) 8%, rgba(68,68,180,1) 52%, rgba(255,0,147,0.560749299719888) 98%) no-repeat 100% 45%/ 500px, red;}
+
+/* ФРАГМЕНТ ПНРШИЙ */
+
+.container-first-part {
+    max-width: 1023px;
+    margin: 0 auto;
+    color: #7D7D7D;
+    font-family: "Inter",sans-serif;
+    font-size: 18px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.business-title-block {
+    margin-bottom: 20px;
+    color: #37393F;
+
+}
+.sub-title-business {
+   font-weight: 500; 
+   background: url(../box-ono.svg) no-repeat 0 2px;
+   padding-left: 18px;
+   margin-bottom: 16px;
+}
+.title-bussines {
+    max-width: 413px;
+   font-family: "Poppins", sans-serif; 
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.21;
+}
+.business-text-block {
+    margin-bottom: 20px;
+}
+.business-text-block p{
+    line-height: 1.46;
+    margin-bottom: 20px;
+}
+.business-text-block p:last-child{
+    margin-bottom: 0px;
+}
+
+.list-business {
+    color: #37393F;
+    font-family:"Poppins", sans-serif;
+    font-size: 20px;
+    margin-bottom: 43px;
+    line-height: 1.65;
+}
+.list-point {
+    margin-bottom: 23px;
+    background: url(../img/vector.svg) no-repeat 0 3px;
+    padding-left: 35px;
+}   
+.list-business li:last-child{
+    margin-bottom: 0px;
+}
+.boxes-business-block {
+}
+.icon-business-block {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #E3E3E3;
+    font-size: 16px;
+    line-height: 1.37;
+    padding: 31px 32px 32px 32px;
+    margin-bottom: 37px;
+    margin-right: 21px;
+}
+.icon-content {
+     max-width: 231px;
+    display: inline-block;
+    vertical-align: top;
+    background: url(../img/icon-ono.svg) no-repeat;
+    padding-left: 59px;
+}
+.sub-title-icon {
+    color: #37393F;
+    font-family:"Poppins", sans-serif ;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 3px;
+}
+.icon-content-twoo{
+    max-width: 231px;
+    background: url(../img/icon-twoo.svg ) no-repeat;
+    padding-left: 59px;
+
+}
+
+.button {
+    max-width: 184px;
+    background: #6B77E5;;
+    padding: 21px 27px 22px 27px;
+    color:#FFF; 
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+ /* ФРАГМЕНТ ДРУГИЙ */
+
+ .container-discover {
+    max-width: 1221px;
+    margin:0 auto;
+    font-family:"Inter",sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+    line-height: 1.46;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.title-discover-projects {
+    max-width: 852px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 47px;
+}
+.sub-title-projects {
+    color: #37393F;
+    font-weight: 500;
+    margin-bottom: 14px;
+    background: url(../img/box-ono.svg) no-repeat 41%;
+}
+.title-projects {
+    color: #37393F;
+    font-family:"Poppins", sans-serif ;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 14px;
+}
+.projects-cards-block {
+}
+.block-picture-with-text {
+    min-width: 31.2%;
+    display: inline-block;
+    font-size: 0px;
+    margin-right: 34px;
+    margin-bottom: 58px;
+    padding-top: 525px;
+    background: url(../img/Photo-ono.png) no-repeat, url(../img/Group.svg ) no-repeat 0 100%;
+}
+#pfoto-twoo{
+    background: url(../img/photo-twoo.png) no-repeat, url(../img/Group.svg ) no-repeat 0 100%;
+}
+#pfoto-three{
+    background: url(../img/pfoto-three.png) no-repeat, url(../img/Group.svg ) no-repeat 0 100%;
+    margin-right: 0px;
+}
+#pfoto-four{
+    background: url(../img/pfoto-four.png) no-repeat, url(../img/Group.svg ) no-repeat 0 100%;
+}
+#pfoto-five{
+    background: url(../img/foto-five.png) no-repeat, url(../img/Group.svg ) no-repeat 0 100%;
+}
+#pfoto-six{
+    background: url(../img/pfoto-six.png) no-repeat, url(../img/Group.svg ) no-repeat 0 100%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.sub-title-card {
+    color: #37393F;
+    font-family:"Poppins", sans-serif ;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 10px;
+}
+.date {
+    font-size: 14px;
+    line-height: 1.46;
+    padding-left: 25px;
+}
+
+/*  ФРАГМЕНТ ТРЕТІЙ */
+.container-fashion-better {
+    max-width: 1240px;
+    margin:0 auto;
+    font-family:"Causten", sans-serif ;
+    color:#FFF ;
+    font-size: 20px;
+    font-weight: 300px;
+    padding-bottom: 150px;
+}
+.block-backgraund-ono {
+    min-height: 640px;
+    background: url(../img/unsplash_ono.png) no-repeat, url(../img/rectangle.png) no-repeat 100% 0;
+    padding: 183px 704px 175px 74px;
+}
+.block-content-better {
+    max-width: 468px;
+}
+.title-better {
+    font-family:" Core Sans C", sans-serif ;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 1.47;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.block-content-better p{
+    line-height: 1.27;
+    margin-bottom: 50px;
+}
+button{
+    max-width: 168px;
+    padding: 12px 44px 12px 44px;
+    background-color: #FFF;
+    border-radius: 8px;
+    color:#3C4242 ;
+    font-weight: 600;
+}
+/*ФРАГМЕНТ ЧЕТВЕРТИЙ*/
+.container-clothing-for-women {
+    max-width: 1240px;
+    margin: 0 auto;
+    font-family: "Causten",sans-serif;
+    font-size: 20px;
+    line-height: 1.65;
+    color:#807D7E;
+}
+.content-women-online {
+    padding-left: 21px;
+}
+.violet {
+    width: 6px;
+    height: 28px;
+    background: url(../img/rectangle-v.png) no-repeat;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 3px;
+}
+.sub-title-women-online,
+.sub-title-collection-online {
+    font-family: "Core Sans C", sans-serif; 
+    font-size: 28px;
+    color:#3C4242 ;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    display: inline-block;
+}
+.sub-title-collection-online {
+    color:#807D7E ;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    padding-left: 0px;
+}
+.sub-title-collection-online+p{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.retreat-ono{
+margin-bottom: 25px;
+}
+.retreati-twoo{
+    margin-bottom: 20px;
+}
+
