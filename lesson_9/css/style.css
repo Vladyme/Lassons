@@ -1,0 +1,588 @@
+@import url(reset.css);
+body{
+    font-family: inter,sans-serif;
+    font-size: 18px;
+    max-width: 1300px;
+    margin:0 auto;
+   }
+   .container p:hover{
+    color: aliceblue;
+   }
+   .header:hover{
+    background-image: url(../img/the-dark-knight.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+.foto{
+  max-width: 500px;
+  min-height: 330px;
+  margin: 0px 0px 15px 15px;
+}
+.container-list{
+  display: inline-block;
+}
+.title{
+  font-family: poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 30px 0px 30px 45px;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  background-color: gray;
+}
+.title:hover{
+    border: 5px solid red;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.sub-title-ono:hover{
+    border: 5px solid red;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.list-menu 
+.movie-title{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 25px;
+  width: 500px;
+  text-align: center;
+  margin: 0px 0px 20px 100px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 25px;
+  height:70px ;
+  background-color: gray;
+}
+li:hover{
+    color: aliceblue;
+}
+li:active{
+    color: brown;
+}
+.list:visited{
+    color: rgb(197, 17, 17);
+}
+  
+.centr{
+  margin-left: 400px;
+}
+.sub-title-ono,
+.sub-title{
+  font-family: poppins, sans-serif;
+  font-size: 30px;
+  margin: 0px 0px 20px 20px;
+  height: 60px;
+  text-decoration: underline;
+}
+.container p{
+  line-height: 25px;
+}
+.container-two .block{
+    vertical-align: top;
+    display: inline-block;
+    max-width: 620px; 
+    height: 700px;
+    margin: 25px 0px 10px 17px;
+    padding: 20px;
+    border:5px solid black ;
+    border-radius: 30px;
+    background-color: gray;
+}
+.container-two{
+  font-size: 0;
+}
+.container-two{
+  font-size: 18px;
+  background-color:rebeccapurple;
+  margin-bottom: 50px;
+} 
+.container-two:hover{
+    background-image: url(../img/images.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+
+   /* ЄКСПЕРЕМЕНТУЮ З TARGET */
+
+  .list-geme {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 50px;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: aqua;
+  }
+  .list-geme:hover{
+    background-color: rgb(27, 171, 190);
+  }
+
+  /* ЄКСПЕРЕМЕНТУЮ З ГРОЮ */
+
+  .game {
+    max-width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    background: url(../img/dungeon.jpg) no-repeat;
+    background-size: cover;
+    visibility: hidden;
+  }
+  .game:target{
+    visibility: visible;
+  }
+  .block-start {
+    width: 70px;
+    height: 70px;
+    background: url(../img/brick.avif) 0 0/ cover;
+    border-top: 15px dashed black;
+    border-bottom: none;
+    margin-left: 90px;
+  }
+  .bock-game-ono {
+    width: 800px;
+    height: 70px;
+    margin-left: 90px;
+  }
+  .bock-game-two {
+    width: 50px;
+    height: 300px;
+    margin-left: 840px;
+  }
+  .bock-game-three {
+    width: 700px;
+    height: 25px;
+    margin-left: 190px;
+  }
+  .bock-game-four {
+    width: 20px;
+    height: 270px;
+    margin-left: 190px;
+  }
+  .bock-game-five {
+    width: 320px;
+    height: 15px;
+    margin-left: 190px;
+  }
+ .bock-game-six {
+    width: 10px;
+    height: 250px;
+    margin-left: 500px;
+    border-bottom: 20px solid red;
+  }
+  .bock-game-ono:hover,
+  .bock-game-two:hover,
+  .bock-game-three:hover,
+  .bock-game-four:hover,
+  .bock-game-five:hover,
+  .bock-game-six:hover{
+    background: url(../img/brick.avif) 0 0/ cover;
+  }
+
+  /* ВИДПРАЦЬВУЮ ПСЕВДОКЛАСИ ПРИ ПОЛОЖЕННІ У КОДІ */
+  .conteiner-in-cod {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  .block-first-last p:first-child{
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: aqua;
+  }
+  .block-first-last p:last-child{
+    padding: 15px;
+    background-color: rgb(0, 30, 255);
+    margin-bottom: 30px;
+  }
+  .block-ferst-last-two p:first-of-type {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 251, 0);
+  }
+  .block-ferst-last-two p:last-of-type {
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 0, 238);
+  }
+  .block-paired-and-unpaired p:nth-child(odd){
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(27, 220, 27);
+  }
+  .block-paired-and-unpaired p:nth-child(even){
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(127, 27, 220);
+  }
+  .block-paired-and-unpaired p:last-child{
+    margin: none;
+  }
+  [class*=block-third-from-first] {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: none;
+  }
+  .block-third-from-first div:nth-child(3n+1) {
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    margin: 20px ;
+    background-color: red;
+  }
+  .block-third-from-first div:nth-child(4n+2) {
+    display: inline-block;
+    width: 250;
+    height: 200px;
+    margin: 20px ;
+    background-color: orange;
+  }
+
+  /* ФРАГМЕНТ З МАКЕТУ ДРУГИЙ */
+
+  .container-monagement-consulting {
+    max-width: 700px;
+    margin: auto;
+    color:#7D7D7D;
+    font-weight: 400;
+    line-height: 1.46;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .title-eamnagement-consulting-ono,
+  .sub-title-frequently{
+    color: #37393F;
+    font-family: 'poppins' sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 3px;
+  }
+  .block-management-consulting {
+    margin-bottom: 80px;
+  }
+  .block-management-consulting p {
+    margin-bottom: 42px;
+  }
+  .sub-title-management-consulting {
+    color: #6B77E5;
+    font-family:'poppins'sens-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 12px;
+  }
+  .block-image-and-list-our-benefits {
+    margin-bottom: 60px;
+  }
+  img{
+    display:inline-block;
+    vertical-align: top;
+      margin-right: 29px;  
+  }
+  .block-content-our-benefits {
+    max-width: 332px;
+    display:inline-block;
+    font-size: 0px;
+ }
+  .block-content-our-benefits{
+    font-size: 18px;
+  } 
+  .sub-title-our-benefits {
+    color: #37393F;
+    font-family:'poppins'sens-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 15px;
+  }
+  .block-content-our-benefits p{
+    color: #40DDB6;
+    font-family:'poppins'sens-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 21px;
+  }
+  .list-our-benefits {
+  }
+  .our-benefits:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .our-benefits::before{
+    content: "";
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background: url(../img/vector.svg) no-repeat;
+    margin-bottom: -5px;
+  }
+
+  /*  ФРАГМЕНТ З МАКЕТУ ДРУГИЙ */
+  .conteiner_business_plan {
+    max-width: 671px;
+    margin: 0 auto;
+    color: #7D7D7D;
+    line-height: 1.46;
+  }
+  .welcome {
+    color: #37393F;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  .welcome::before{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color:#40DDB6; 
+  }
+  .title_business_plan {
+    max-width: 441px;
+    color: #37393F;
+    font-family:'poppins'sens-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 20px;
+  }
+  .block_text_business_plan *:not(:last-child){
+    margin-bottom: 16px;
+  }
+  .block_text_business_plan{
+    margin-bottom: 48px;
+  }
+
+  .bock_list_business_plan .block_our_visin:not(:last-child)  {
+    margin-bottom: 31px;
+   }
+   .block_our_visin {
+    padding: 28px 41px 28px 36px;
+    border: 1px solid #E3E3E3;
+   }
+   .block_our_visin:hover{
+    border: 6px solid #E3E3E3;
+   }
+
+   .bock_list_business_plan{
+    margin-bottom: 48px;
+   }
+   .block_our_visin p {
+    margin-left: 50px;
+   }
+    .sub_title_visin::before{
+    content: "";
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background: url(../img/vector.svg) no-repeat;
+    margin-bottom: -5px;
+    margin-right: 19px;
+   }
+   .sub_title_visin:hover:before{
+    opacity: 0.5;
+   }
+  .sub_title_visin {
+    color: #37393F;
+    font-family:'poppins'sens-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-bottom: 12px;
+  }
+  .block_button {
+    max-width: 200px;
+    height: 65px;
+    padding: 21px 35px 22px 35px;
+    background-color: #6B77E5;
+  }
+  .block_button p {
+    color: #FFF;
+    font-weight: 600;
+  }
+  .block_button:hover{
+    background-color:#3b4386 ;
+  }
+  /* франмент з макету три */
+  .container_we_work {
+    max-width: 1231px;
+    margin: auto;
+    color:#7D7D7D;
+    text-align: center;
+    line-height:1.46 ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .block_title_we_work p:first-of-type {
+  color: #37393F; 
+  margin-bottom: 16px;
+  }
+  .block_title_we_work{
+    margin-bottom: 41px;
+  }
+  .block_title_we_work p::before{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color:#40DDB6; 
+  }
+  .title_we_work {
+    color: #37393F;
+    font-family:'poppins'sens-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+  }
+  .block_oll_we_work div:not(:last-child) {
+    margin-right: 31px;
+  }
+  .block_meke,
+  .block_meke_ono,
+  .block_meke_two {
+    max-width: 386px;
+    display: inline-block;
+     vertical-align: top; 
+    color:#7D7D7D;
+    line-height:1.46 ;
+    padding: 58px 43px;
+    margin-top: 50px;
+    background-color: #F4F4F4;
+  }
+  .block_meke::before{
+    content: "";
+    display: block;
+    width: 72px;
+    height: 72px;
+    background: url(../img/Icon_meke.svg)  no-repeat;
+    margin-left: 123px;
+    margin-top: -94px;
+    margin-bottom: 22px;
+  }
+  .block_meke_ono::before{
+    content: "";
+    display: block;
+    width: 72px;
+    height: 72px;
+    background: url(../img/Icon_meke_ono.svg)  no-repeat;
+    margin-left: 123px;
+    margin-top: -94px;
+    margin-bottom: 22px;
+  }
+  .block_meke_two::before{
+    content: "";
+    display: block;
+    width: 72px;
+    height: 72px;
+    background: url(../img/Icon_meke_two.svg)  no-repeat;
+    margin-left: 123px;
+    margin-top: -94px;
+    margin-bottom: 22px;
+  }
+  .block_meke:hover::before,
+  .block_meke_ono:hover::before,
+  .block_meke_two:hover::before{
+    opacity: 0.7;
+  } 
+  .sub_title_meke {
+    color: #37393F;
+    font-family:'poppins'sens-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .block_meke p:not(:last-child),
+  .block_meke_ono p:not(:last-child),
+  .block_meke_two p:not(:last-child){
+    margin-bottom: 37px;
+  }
+  .block_meke p:last-of-type:hover,
+  .block_meke_ono p:last-of-type:hover,
+  .block_meke_two p:last-of-type:hover{
+    color: #3b48ab;
+    font-size: 20px;
+  }
+
+  .meke {
+    color: #6B77E5;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  /* ФРАГМЕНТ З МАКЕТУ ЧОТИРИ */
+  .container_custom_jewels {
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family:'cormorant infant';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.40;
+    color:#000000;
+  }
+  .block_title_castom_jewels {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 151px;
+  }
+  .title_custom {
+    max-width: 488px;
+    font-size: 60px;
+  }
+   .title_custom::after{
+    content: "";
+    display: block;
+    width: 384px;
+    height: 3px;
+    background-color: #78473B;
+  } 
+  .block_image_castom {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .block_picture_castom {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 33px;
+  }
+
+  .block_image_castom p:not(:last-child){
+    margin-bottom: 4px;
+  }
+  .block_image_castom img:not(:last-child){
+    margin-right: 45px;
+  }
+  .picture_castom,.picture_castom_ono {
+    border: 1px solid #000 ;
+    margin-bottom: 25px;
+    padding-top: 9px;
+    padding-left: 10px;
+  }
+  .picture_castom:hover,
+  .picture_castom_ono:hover {
+    opacity: 0.5;
+  }
+  .block_picture_castom_ono {
+    display: inline-block;
+  }
+  .castom_collection {
+    width: 339px;
+    font-size: 46px;
+    line-height: 1.13;
+    margin-bottom: 31px;
+  }
+.block_effect_collection:hover{
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+
+
+
