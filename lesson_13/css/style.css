@@ -1,0 +1,597 @@
+@import url(reset.css);
+
+/*  ДЕЛАЮ 3 Х УРОВНЕВЫЙ СПИСОК */
+body{
+   max-width: 1500px;
+   margin: 0 auto;
+   font-family: inter, sans-serif;
+   font-weight: 500;
+   line-height: 1.4;
+   font-size: 25px;
+}
+
+.header {
+   width: auto;
+   z-index: 10;
+   padding-top: 150px;
+   background-color: #79d8f872;
+}
+.wrapper {
+   /* overflow: clip;
+   min-height: 100%; */
+}
+.body {
+
+}
+.conteinert-practice {
+   width: 1500px;
+   height: 500px; 
+   background: url(../img/bagraund.avif) no-repeat 0 0 / cover;
+
+}
+.transform2d {
+
+}.transform2d :not(:last-child){
+}
+
+.transform2d__translate {
+}
+.translate,
+.translate3d {
+   position: relative;
+}
+.translate__ono,
+.scal__ono ,
+.rotate__ono,
+.skew__ono,
+.matrix__ono,
+.origin__ono,
+.translate3d__ono,
+.scal3d__ono ,
+.rotate3d__ono,
+.skew3d__ono,
+.back-kard__ono,
+.origin3d__ono
+
+
+  {
+   width: 200px;
+   height: 200px;
+   background-color: #e6b3b396;
+   position: absolute;
+   top: 20px;
+   left: 20px;
+
+}
+.translate__too,
+.scal__too,
+.rotate__too,
+.skew__too,
+.matrix__too ,
+.origin__too,
+.translate3d__too,
+.scal3d__too,
+.rotate3d__too,
+.skew3d__too,
+.back-kard__too ,
+.origin3d__too
+
+
+  {
+   color: aliceblue;
+   width: 200px;
+   height: 200px;
+   background-color: #053b4dee;
+   position: absolute;
+   top: 20px;
+   left: 20px;
+
+}
+.translate:hover .translate__too{
+   transform: translateX(10%);
+}
+
+.translate__too p
+   {
+   position: relative;
+   top: 85px;
+   left: 25px;
+}
+.translate__too :hover,
+.scal__too p:hover,
+.rotate__too p:hover,
+.skew__too p:hover,
+.matrix__too p:hover,
+.origin__too p:hover,
+.translate3d__too :hover,
+.scal3d__too p:hover,
+.rotate3d__too p:hover,
+.skew3d__too p:hover,
+.back-kard__too p:hover,
+.origin3d__too p:hover
+{
+   color:  #79acf872;
+   text-decoration: underline;
+}
+
+
+/* SCAL */
+
+.transform2d__scal {
+}
+.scale {
+position: relative;
+}
+.scal__ono {
+   position: absolute;
+   top: 20px;
+   left: 260px;
+
+}
+.scal__too {
+   position: absolute;
+   top: 20px;
+   left: 260px;
+}
+.scal__too p{
+   position: relative;
+   top: 85px;
+   left: 65px;
+}
+.scal__too:hover{
+   transform: scale(0.5);
+
+}
+
+/* ROTATE */
+.transform2d__rotate {
+}
+.rotate {
+   position: relative;
+}
+.rotate__ono {
+   position: absolute;
+   top: 20px;
+   left: 500px;
+
+}
+.rotate__too {
+   position: absolute;
+   top: 20px;
+   left: 500px;
+}
+.rotate__too:hover{
+   /* transform: rotatex(45deg); */
+   /* transform: rotatey(45deg); */
+   transform: rotate(45deg);
+
+}
+.rotate__too p{
+   position: relative;
+   top: 85px;
+   left: 50px;
+}
+
+
+/* SKEW */
+
+.transform2d__skew {
+}
+.skew {
+   position: relative;
+}
+.skew__ono {
+   position: absolute;
+   top: 20px;
+   left: 740px;
+
+}
+.skew__too {
+   position: absolute;
+   top: 20px;
+   left: 740px;
+}
+.skew__too p{
+   position: relative;
+   top: 85px;
+   left: 63px;
+}
+.skew__too:hover{
+   /* transform:skewX(-15deg); */
+   transform: skewY(15deg);
+   /* transform: skew(15deg); */
+}
+
+
+/* MATRIX */
+.transform2d__matrix {
+}
+.matrix {
+   position: relative;
+}
+.matrix__ono {
+   position: absolute;
+   top: 20px;
+   left: 980px;
+
+}
+.matrix__too {
+   position: absolute;
+   top: 20px;
+   left: 980px;
+}
+.matrix__too p{
+   position: relative;
+   top: 85px;
+   left: 53px;
+}
+.matrix__too:hover{
+   transform: translatey(100%)  scale(1.1) rotate(10deg);
+
+}
+img{
+   visibility: hidden;
+}
+.matrix:hover img{
+   visibility: visible;
+}
+
+/* ORIGIN */
+
+.transform2d__origin {
+}
+.origin {
+   position: relative;
+}
+.origin__ono {
+   position: absolute;
+   top: 20px;
+   left: 1220px;
+
+}
+.origin__too {
+   position: absolute;
+   top: 20px;
+   left: 1220px;
+}
+.origin__too p{
+   position: relative;
+   top: 85px;
+   left: 53px;
+}
+.origin__too:hover{
+   transform-origin: 0 100% ;
+   transform: rotate(15deg);
+}
+
+/*  TRANSFOR3D   */
+
+/* TRANSLATE3D */
+.translate3d__ono,
+.translate3d__too{
+   top: 240px;
+   left:20px;
+}
+.translate3d__too p{
+   position: relative;
+   top: 85px;
+   left: 10px;
+}
+.translate3d{
+   perspective: 100px;
+   transform-style: preserve-3d;
+}
+
+.translate3d:hover .translate3d__too{
+   /* transform: translate(20px); */
+   transform: translate3d(0px, 0px, -50px);
+}
+
+/* SCAL3D */
+.scale3d{
+}
+
+.scal3d__ono,
+.scal3d__too{
+   top: 240px;
+   left:260px;
+}
+.scal3d__too p{
+   position: relative;
+   top: 85px;
+   left: 50px;
+}
+.scale3d{
+   perspective: 1000px;
+   transform-style: preserve-3d;
+}
+
+.scale3d:hover .scal3d__too{
+   transform: scale3d(1.3, 0.7, -1.3);
+}
+
+/* RPTATTE3D */
+
+.rotate3d{
+}
+
+.rotate3d__ono,
+.rotate3d__too{
+   top: 240px;
+   left:500px;
+}
+.rotate3d__too p{
+   position: relative;
+   top: 85px;
+   left: 35px;
+}
+.rotate3d{
+   perspective: 400px;
+   transform-style: preserve-3d;
+}
+
+.rotate3d:hover .rotate3d__too{
+   transform: rotatex(85deg);
+}
+
+/* SKEW3D -НЕ РАБОТАЕТ С 3D */
+/* PERSPECTIV-ORIGIN3D */
+.opigin3d{
+}
+
+.origin3d__ono,
+.origin3d__too{
+   top: 240px;
+   left:740px;
+}
+.origin3d__too p{
+   position: relative;
+   top: 85px;
+   left: 35px;
+}
+.origin3d{
+   perspective: 700px;
+   transform-style: preserve-3d;
+   perspective-origin: 0 100%; 
+
+}
+
+.origin3d:hover .origin3d__too{
+   transform: rotatey(-15deg);
+}
+
+
+/* ПЕРЕВОРАЧИВАЮ КАРТОЧКУ */
+
+.back-kard__ono,
+.back-kard__too{
+   top: 240px;
+   left:980px;
+}
+.back-kard__too{
+   background-color: #0d0b5d;
+    backface-visibility: hidden; 
+}
+.back-kard__ono{
+   background-image: url(../img/main_photo_fourr.png) ;
+   background-size: cover;
+
+}
+
+.back-kard__too p{
+   position: relative;
+   top: 85px;
+   left: 25px;
+}
+.back-kard{
+   perspective: 700px;
+   transform-style: preserve-3d;
+   perspective-origin: 0 100%;
+}
+
+.back-kard:hover .back-kard__too{
+   transform: rotatey(180deg);
+   transition: all 1s ease 0s;
+}
+
+
+/* ДЕЛАЕМ АВТОМОБИЛЬ */
+
+.container-hom-work {
+}
+.hom-work {
+}
+.hom-work__city {
+}
+.city {
+   position: relative;
+}
+.city__river {
+   width: 1500px;
+   height: 300px;
+   background: url(../img/homwork-river.jpg) ;
+   position: absolute;
+   left: 0;
+   top: 600px;
+   z-index: 1;
+
+}
+.city__road {
+}
+.city__park {
+   width: 1500px;
+   height: 300px;
+   background: url(../img/homwork-beach.avif) no-repeat 0 0/ cover ;
+   position: absolute;
+   left: 0;
+   top: 800px;
+   z-index: 2;
+
+}
+.city__sky {
+   width: 1500px;
+   height: 700px;
+   background: url(../img/homwork-sky.jpg) no-repeat 0 0/ cover ;
+   position: absolute;
+   left: 0;
+   top: 0;
+
+}
+
+.city__auto {
+   max-width: 1000px;
+   margin: 0 auto;
+   position: relative;
+
+}
+.auto {
+}
+.auto__frame {
+}
+.frame {
+}
+.frame__center {
+   width: 600px;
+   height: 300px;
+   background-color: blue;
+   border-top-left-radius: 150%;
+   border-bottom-left-radius: 45%;
+   border-top-right-radius: 90%;
+   border-bottom-right-radius: 45%;
+   border-bottom: 15px solid black;
+   border-right: 7px solid black;
+   position: absolute;
+   left:300px;
+   top: 700px;
+   z-index: 4;
+}
+.frame__center::before{
+   content: "";
+   display: inline-block;
+   width: 300px;
+   height: 130px;
+   background-color: rgb(12, 186, 230);
+   border-top-left-radius:120%;
+   border-bottom-left-radius:2% ;
+   border-top-right-radius:5% ;
+   border-bottom-right-radius:5%;
+   border: 5px solid black;
+   position: relative;
+   top: 20px;
+   left: 40px;
+}
+.frame__center::after{
+   content: "";
+   display: inline-block;
+   width: 230px;
+   height: 130px;
+   background-color: rgb(12, 186, 230);
+   border-top-left-radius:5%;
+   border-bottom-left-radius:2% ;
+   border-top-right-radius:120% ;
+   border-bottom-right-radius:5%;
+   border: 5px solid black;
+   position: relative;
+   top: 20px;
+   left: 40px;
+}
+
+
+.frame__right{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   background-color: #2a2626;
+   border: 40px solid gray;
+   position: absolute;
+   left:330px;
+   top: 900px;
+   z-index: 5;
+
+}
+.frame__right::after{
+   content: "";
+   display: inline-block;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   background-color: #2a2626;
+   border: 40px solid gray;
+   position: absolute;
+   left:350px;
+   top: -35px;
+   z-index: 5;
+
+}
+
+.frame__left{
+   width: 300px;
+   height:120px ;
+   border: 5px solid black;
+   border-left: transparent;
+   position: absolute;
+   top: 855px;
+   left: 340px;
+   border-bottom-left-radius:200px ;
+   border-bottom-right-radius: 45%;
+   z-index: 4;
+}
+.frame__left::after{
+   content: "";
+   display: inline-block;
+   width: 230px;
+   height:120px ;
+   border: 5px solid black;
+   border-right: transparent;
+   position: absolute;
+   top: -4px;
+   left: 310px;
+   border-bottom-right-radius:200px ;
+   border-bottom-left-radius: 45%;
+   z-index: 4;
+}
+
+/* ГЕОМЕТРИЧЕСКИЕ ФИГУРЫ */
+/* .block-figures {
+}
+.figures {
+   position: relative;
+
+}
+.figures__qualrate {
+   width: 200px;
+   height: 200px;
+   background-color: aquamarine;
+   position: absolute;
+   left: 0;
+   top: 30px;
+   z-index: 4;
+}
+.figures__rhobus {
+   width: 400px;
+   height: 200px;
+   background-color: aquamarine;
+   position: absolute;
+   left: 220px;
+   top: 30px;
+   border-radius: 50%;
+   z-index: 4;
+
+}
+.figures_triangle {
+   border-left:200px solid aquamarine ;
+   border-bottom:100px solid transparent;
+   border-top: 100px solid transparent;
+   position: absolute;
+   left: 640px;
+   top: 30px;
+   z-index: 4;
+
+}
+.figures__oval {
+}
+.figures__trapezoid {
+}
+
+.footer {
+} */
